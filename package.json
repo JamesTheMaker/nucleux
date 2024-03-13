@@ -1,0 +1,21 @@
+{
+  "name": "nucleux",
+  "displayName": "nucleux",
+  "description": "An aesthetically pleasing, yet functional theme for VSC (and compatible editors).",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nucleux (Default)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default-color-theme.json"
+      }
+    ]
+  }
+}
