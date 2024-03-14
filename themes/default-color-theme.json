@@ -15,12 +15,19 @@
 		"tab.activeBackground": "#0f0f0f",
 		"tab.inactiveBackground": "#1f1f1f",
 
-		"menu.background": "#2f2f2fEE",
+		"menu.background": "#3f3f3fEE",
 		"menu.foreground": "#ffffff",
-		"menu.selectionBackground": "#3f3f3f",
+		"menu.selectionBackground": "#4f4f4f",
 		"menu.selectionForeground": "#ffffff",
-	},
+		"menubar.selectionBackground": "#4f4f4f",
+		"menubar.selectionForeground": "#ffffff",
 
+		"statusBar.background": "#2f2f2f",
+		"statusBar.foreground": "#ffffff",
+		"statusBarItem.hoverBackground": "#3f3f3f",
+		"statusBarItem.hoverForeground": "#ffffff",
+		"statusBarItem.activeBackground": "#4f4f4f",
+	},
 	"tokenColors": [
 		// =================
 		// General
@@ -33,17 +40,25 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#4db01f"
+				"foreground": "#ffd700"
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Class, Support and Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#4e86ff"
+				"foreground": "#20b2aa"
 			}
 		},
 		{
@@ -52,7 +67,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#5ca4ce"
+				"foreground": "#6c71c4"
 			}
 		},
 		{
@@ -62,7 +77,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#ee2fff"
+				"foreground": "#dc322f"
 			}
 		},
 		{
@@ -73,7 +88,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#846af6"
+				"foreground": "#3e8ce6"
 			}
 		},
 		{
@@ -83,7 +98,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#355baf",
+				"foreground": "#e63e62",
 				"fontStyle": "bold"
 			}
 		},
@@ -102,7 +117,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#23399e"
+				"foreground": "#8fbc8f"
 			}
 		},
 		{
@@ -126,7 +141,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#b58900"
 			}
 		},
 		{
@@ -161,7 +176,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#c46210"
 			}
 		},
 		{
@@ -177,22 +192,6 @@
 			],
 			"settings": {
 				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "Class, Support",
-			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
-				"support.other.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				"foreground": "#FFCB6B"
 			}
 		},
 		{
